@@ -1,0 +1,54 @@
+/*--------------------
+ stylesheet
+ ------------------ */
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital@1&family=Poppins:wght@400;500;700&family=Raleway:wght@700&display=swap');
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+/*-------------------
+     vlogs style
+     ------------------ */
+     .top-vlogs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 100%;
+        margin-right: 540px;
+        position: relative;
+        left: 285px;
+       }
+       .vlogs{
+        border: 1px solid #E8E8E8;
+        Width:275px;
+        height: 182px;
+        padding: 24px 13px 4px 8px;
+        border-radius: 10px ;
+        margin-top: 30px;
+       }
+       .vlog{
+        display: flex;
+     
+    }
+    .vlog img{
+        width: 93px;
+        height: 56px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .vlog h3{
+        margin-left: 10px;
+  
+    }
+    .vlog-detail{
+        margin-left: 35px;
+        margin-top: -8px;
+    }
+    .vlog-detail h4{
+     font-size: 20px;
+    }
+    .vlog-detail p{
+        font-size: 13px;
+        margin-top: -16px;
+        margin-left: 30px;
+    }
+  
+  
