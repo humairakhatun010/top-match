@@ -12,7 +12,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         max-width: 100%;
-        margin-right: 540px;
+        margin-right: 555px;
         position: relative;
         left: 285px;
        }
