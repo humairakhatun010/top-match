@@ -5,6 +5,104 @@
  body{
     font-family: 'Poppins', sans-serif;
  }
+ .player-info{
+    background-image:linear-gradient(red,yellow) ;
+    width: 80vw;
+    height: 663px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+ }
+ .top-player{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .player-detail{
+    margin-top: -50px;
+ }
+ .player-detail h1{
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: -7px;
+ }
+ .player-detail p{
+    font-size: 15px;
+    width: 514px;
+    height: 88px;
+ }
+ .player-detail a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;;
+    background-color:blueviolet;
+    padding: 15px 30px;
+    border-radius: 4px;
+ }
+ .player-img img{
+    width: 581px;
+    height: 613px;
+    margin-top: 50px;
+ }
+ /*-------------------
+  blogs styles
+  ------------------ */
+ .top-vlog{
+    display: flex;
+    justify-content: center;
+ }
+  .angcor  a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 20px;
+  }
+  .angcor{
+    background-image:linear-gradient(yellow,orange) ;
+    margin-left: 0px;
+    padding: 30px 30px 3px 22px;
+    max-width: 238px;
+    height: 276px;
+    border-radius: 10px;
+    margin-right: 24px;
+  }
+  .angcor-1{
+    padding: 17px;
+    margin-bottom: 20px;
+  }
+  .angcor-1:hover{
+   background-color: gold;
+   color: #FFFFFF;
+  }
+  .angcor a:hover{
+   color: #FFFFFF;
+  } 
+  .top-Match{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(210, 105, 30, 0.627);
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .top-Group{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(210, 105, 30, 0.627); 
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .top-Blog{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(210, 105, 30, 0.627);
+    width: 210px;
+    height: 35px;
+    border-radius: 10px; 
+  }
 /*-------------------
      vlogs style
      ------------------ */
@@ -12,9 +110,9 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         max-width: 100%;
-        margin-right: 555px;
+       
         position: relative;
-        left: 285px;
+        left: 2px;
        }
        .vlogs{
         border: 1px solid #E8E8E8;
@@ -22,7 +120,8 @@
         height: 182px;
         padding: 24px 13px 4px 8px;
         border-radius: 10px ;
-        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 20px;
        }
        .vlog{
         display: flex;
@@ -50,5 +149,29 @@
         margin-top: -16px;
         margin-left: 30px;
     }
+     /*-------------------
+    footer styles
+    ----------------- */
+    .top-footer{
+        display: grid;
+        justify-items: center;
+        background-image: linear-gradient(yellow,red);
+        padding: 100px;
+        border-radius: 10px;
+      }
+      .goal-top{
+        margin-top: -9px;
+        color: #E8E8E8;
+      }
+      hr{
+        width: 80%;
+        color: #B9B9B9;
+        margin-bottom: 40px;
+      }
+      .footer-a a{
+        text-decoration: none;
+        color: #B9B9B9;
+        margin-right: 25px;
+      }
   
   
